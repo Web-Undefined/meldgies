@@ -3316,10 +3316,6 @@ table.alt tbody tr td {
     background: #fcf4c8;
 }
 
-.landing-logo {
-    max-width: 32em;
-}
-
 .bigger {
     /* margin-bottom: 0.5em !important; */
     font-size: 2em !important;
@@ -4178,4 +4174,8 @@ body.is-preload #banner .wrapper > .inner {
 
 html {
     scroll-behavior: smooth;
+}
+
+.landing-logo {
+    max-width: 32em;
 }
