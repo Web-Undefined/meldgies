@@ -3062,15 +3062,25 @@ table.alt tbody tr td {
 }
 
 .wrapper.style1 {
-    background-color: #bf0d0d;
+    /* background-image: url("../../images/inside2.jpg"),
+        linear-gradient(
+            135deg,
+            rgba(191, 13, 13, 0.5) 0%,
+            rgba(191, 13, 13, 0.5) 50%,
+            rgba(218, 23, 23, 1) 50%,
+            rgba(218, 23, 23, 1) 100%
+        ); */
+    background-color: rgba(191, 13, 13, 1);
     color: #fcf4c8;
     background: linear-gradient(
         135deg,
-        #bf0d0d 0%,
-        #bf0d0d 50%,
-        #da1717 50%,
-        #da1717 100%
+        rgba(191, 13, 13, 1) 0%,
+        rgba(191, 13, 13, 1) 50%,
+        rgba(218, 23, 23, 1) 50%,
+        rgba(218, 23, 23, 1) 100%
     );
+    /* background-image: url("../../images/inside.jpg"),
+        linear-gradient(90deg, rgba(245, 74, 111, 0), #90b93f 90%); */
 }
 
 .wrapper.style1 input,
@@ -4176,6 +4186,18 @@ html {
     scroll-behavior: smooth;
 }
 
+.lunch {
+    margin-bottom: 7em;
+}
+.radius {
+    border-radius: 2%;
+}
+
 .landing-logo {
     max-width: 32em;
+}
+@media screen and (max-width: 736px) {
+    .landing-logo {
+        max-width: 20em;
+    }
 }
