@@ -2814,7 +2814,7 @@ ul.actions.fit.stacked {
     ul.actions:not(.fixed) li input[type="button"],
     ul.actions:not(.fixed) li button,
     ul.actions:not(.fixed) li .button {
-        width: 100%;
+        width: 80%;
     }
 
     ul.actions:not(.fixed) li input[type="submit"].icon:before,
@@ -3079,8 +3079,14 @@ table.alt tbody tr td {
         rgba(218, 23, 23, 1) 50%,
         rgba(218, 23, 23, 1) 100%
     );
-    /* background-image: url("../../images/inside.jpg"),
-        linear-gradient(90deg, rgba(245, 74, 111, 0), #90b93f 90%); */
+    background-image: url("../../images/insideLanding.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#form-1 {
+    background-image: none;
+    background-color: #bf0d0d;
 }
 
 .wrapper.style1 input,
@@ -3790,13 +3796,14 @@ body {
     -webkit-justify-content: space-between;
     -ms-justify-content: space-between;
     justify-content: space-between;
-    background: linear-gradient(
+    /* background: linear-gradient(
         135deg,
         #bf0d0d 0%,
         #bf0d0d 50%,
         #da1717 50%,
         #da1717 100%
-    );
+    ); */
+    background-color: #bf0d0d;
     box-shadow: 0px 25px 75px 0px rgba(0, 0, 0, 0.1);
     color: #fcf4c8;
     cursor: default;
@@ -4193,11 +4200,22 @@ html {
     border-radius: 2%;
 }
 
+.landing {
+    background-color: #bf0d0d;
+    max-width: 36em;
+    padding: 1.5em 0em;
+    border-radius: 10%;
+    border: solid #cec58e 2px;
+}
+
 .landing-logo {
     max-width: 32em;
 }
 @media screen and (max-width: 736px) {
     .landing-logo {
         max-width: 20em;
+    }
+    .landing {
+        max-width: 26em;
     }
 }
