@@ -3513,9 +3513,10 @@ header.heading.small {
     line-height: 2;
 }
 
-/* .feature-wide {
+.feature-wide {
     width: auto !important;
-} */
+    min-height: 24em;
+}
 
 .top-pad {
     padding-top: 2em;
