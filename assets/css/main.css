@@ -3513,9 +3513,9 @@ header.heading.small {
     line-height: 2;
 }
 
-.feature-wide {
+/* .feature-wide {
     width: auto !important;
-}
+} */
 
 .top-pad {
     padding-top: 2em;
@@ -3628,7 +3628,7 @@ header.heading.small {
 
 @media screen and (max-width: 480px) {
     .features-grid .feature {
-        padding: 0 2rem;
+        padding: 0 1rem;
     }
 }
 
